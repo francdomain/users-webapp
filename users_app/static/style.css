@@ -1,0 +1,91 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  /* background-color: #333; */
+  background-color: #364192;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  text-align: right; /* Align the content to the right */
+  margin-right: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+.content {
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center; /* Center content within the container */
+}
+
+form {
+  margin: 20px 0;
+  text-align: center; /* Center content within the form */
+}
+
+label {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 30%;
+  padding: 10px;
+  margin: 3px 0;
+}
+
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+p a {
+  text-decoration: none;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  background-color: #364192;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
