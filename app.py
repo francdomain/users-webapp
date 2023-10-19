@@ -59,8 +59,8 @@ def logout():
 
 if __name__ == '__main__':
     # app.run(debug=True)
-    # app.run(host='0.0.0.0', port=80)
-    try:
-        app.run(host='0.0.0.0', port=80)  # Use 0.0.0.0 to listen on all available network interfaces
-    except Exception as e:
-        print(f"An error occurred: {e}")
+    app.run(host='0.0.0.0', port=80)
+    # try:
+    #     app.run(host='0.0.0.0', port=5000)  # Use 0.0.0.0 to listen on all available network interfaces
+    # except Exception as e:
+    #     print(f"An error occurred: {e}")
